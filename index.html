@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Visting Brian</title>
+    <link rel="stylesheet" href="css/c01.css" />
+  </head>
+
+  <body onload = "TestGeo();">
+  <script src="js/crossfade.js"></script>
+
+    <h1>Visiting Brian</h1>
+
+    <p>Brian can be found in Parliament Square Garden.</p>
+    <p>Please ensure location services are turned on so that Brian can find you.</p>
+
+    <h3> Your coordinates</h3>
+    <p id="coordinates">Fetching your location, please wait...</p>
+    <p id="state"></p>
+    <script src="js/geolocation.js"></script>
+
+    <button type="button" id="button" onclick="playAudio()">Visit Brian</button>
+
+  </body>
+</html>
